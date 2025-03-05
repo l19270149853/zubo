@@ -35,8 +35,8 @@ jobs:
         if git diff-index --quiet HEAD --; then
           echo "🔄 无变更需要提交"
         else
-          git config --global user.name "GitHub Actions"
-          git config --global user.email "actions@github.com"
+          git config --global user.name "l19270149853"
+          git config --global user.email "362213335lkh@gmail.com"
           git add .
           git commit -m "自动更新直播源 $(date +'%Y-%m-%d %H:%M')"
           git push origin main
